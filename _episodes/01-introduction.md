@@ -157,7 +157,7 @@ matter of internal convention. NumPy and C use the row-major order. Other langua
 
 For example, suppose we have the follwing NumPy array:
 
-<table align="left">
+<table border="1">
 <tr><td>row</td><td align="center" colspan="3">column</td></tr>
 <tr><td></td><td>0</td><td>1</td><td>2</td></tr>
 <tr><td>0</td><td>[0,0]</td><td>[0,1]</td><td>[0,2]</td></tr>
@@ -167,7 +167,7 @@ For example, suppose we have the follwing NumPy array:
 
 This array is actually stored in memory as:
 
-<table align="left">
+<table border="1">
 <tr><td>offset</td><td>0</td><td>1</td><td>2</td>
 <td>3</td><td>4</td><td>5</td>
 <td>6</td><td>7</td><td>8</td></tr>
